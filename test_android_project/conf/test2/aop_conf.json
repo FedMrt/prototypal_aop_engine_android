@@ -1,0 +1,18 @@
+{ 
+	"targets":
+		[
+			{
+				"target_name":"demoboz", 
+				"target_interface":"it.mapeto2my.aopdroidtestapp.test_objects.IBoz",
+				"target_class":"it.mapeto2my.aopdroidtestapp.test_objects.Boz",
+				"flow_components":["it.mapeto2my.aopdroidtestapp.test_objects.InterceptorOne","it.mapeto2my.aopdroidtestapp.test_objects.InterceptorTwo"]
+			},
+			{	
+				"target_name":"anotherdemoboz", 
+				"target_interface":"it.mapeto2my.aopdroidtestapp.test_objects.IBoz",
+				"target_class":"it.mapeto2my.aopdroidtestapp.test_objects.Boz",
+				"flow_components":["it.mapeto2my.aopdroidtestapp.test_objects.InterceptorOne","it.mapeto2my.aopdroidtestapp.test_objects.InterceptorTwo"]
+			}
+		]
+}
+
