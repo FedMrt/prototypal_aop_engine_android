@@ -6,4 +6,6 @@ If you are reading this file maybe you are searching for information about the c
 
 NOTE on Dependencies: -You'll need the following jars on classpath: a) json-simple-1.1.1.jar (or analogous) -I've compiled and runned it with java7
 
+NOTE: Under test_android_project you'll find sources and resources of a test Android App
+
 *I think it's funny
